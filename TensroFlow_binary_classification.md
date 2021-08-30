@@ -1,6 +1,7 @@
 # Tensorflow
 ## binary classification
 
+```python
 import tensorflow.compat.v1 as tf
 ##### Data
 train_X = [
@@ -45,3 +46,5 @@ for step in range(epochs):
     print(loss_val,W_val,b_val)
 
 print(sess.run(H,feed_dict={X:[[5,6]]}))
+```
+
